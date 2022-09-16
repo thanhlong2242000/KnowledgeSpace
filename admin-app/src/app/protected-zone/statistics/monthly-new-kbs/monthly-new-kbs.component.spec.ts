@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { MonthlyNewKbsComponent } from './monthly-new-kbs.component';
+
+describe('MonthlyNewKbsComponent', () => {
+  let component: MonthlyNewKbsComponent;
+  let fixture: ComponentFixture<MonthlyNewKbsComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ MonthlyNewKbsComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(MonthlyNewKbsComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
